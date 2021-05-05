@@ -10,8 +10,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../../resources/sample.fxml"));
-        primaryStage.setTitle("Calculator");
+        Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
+        primaryStage.setTitle("CalculatorProjectFinal");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
